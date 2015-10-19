@@ -21,6 +21,7 @@ namespace Cherry_Hill_9th_Ward_Map
         private const int WEB_DOWNLOAD = 1;
         private const int NOT_ON_WARD_LIST_FORMAT = 2;
         private const int MLS_EXPORT_WARD_LIST = 3;
+        private const int LDS_ORG_EXPORT_HOUSEHOLDS = 4;
         private const int VCF_WARD_LIST = 4;
         public const int MAX_NUM_MATCHED_NAMES_RETURNED = 5;
 
@@ -151,10 +152,20 @@ namespace Cherry_Hill_9th_Ward_Map
                             onWardListFileType = MLS_EXPORT_WARD_LIST;
                             break;
                         }
+                        else if (
+                            (string.Compare(fields[0], "Family Name") == 0)
+                            && (string.Compare(fields[1], "Couple Name") == 0)
+                            && (string.Compare(fields[2], "Family Phone") == 0)
+                            && (string.Compare(fields[3], "Family Email") == 0)
+                            )
+                        {
+                            onWardListFileType = LDS_ORG_EXPORT_HOUSEHOLDS;
+                            break;
+                        }
 
-                    }
-                    //read in file
-                    if (onWardListFileType == WEB_DOWNLOAD)
+                        }
+                        //read in file
+                        if (onWardListFileType == WEB_DOWNLOAD)
                     {
                         dtOnWardList.Clear();
                         while ((fields = csv.GetCSVLine()) != null)
@@ -224,9 +235,48 @@ namespace Cherry_Hill_9th_Ward_Map
                         } while ((fields = csv.GetCSVLine()) != null);
                         
                     }
-                    else if (onWardListFileType == NONE)
+                    else if (onWardListFileType == LDS_ORG_EXPORT_HOUSEHOLDS)
                     {
-                        //did not recognize file format
+                        dtOnWardList.Clear();
+                        while ((fields = csv.GetCSVLine()) != null)
+                        {
+                            currentLastName = "";
+                            currentHoh1 = "";
+                            currentHoh2 = "";
+                            currentAddress = "";
+                            //fill in lastName, hoh1, hoh2, address
+                            //Last Name
+                            currentLastName = fields[0].Trim();
+                            //hoh1
+                            tmpStrs = fields[5].Split(new char[] { ',' });
+                            currentHoh1 = tmpStrs[1].Trim();
+                            //hoh2
+                            //make sure fields[7] is an hoh
+                            tmpStrs = fields[8].Split(new char[] { ',' });
+                            if (tmpStrs.Length > 1)
+                            {
+                                currentHoh2 = tmpStrs[1].Trim();
+                            }
+                            else
+                            {
+                                currentHoh2 = "";
+                            }
+                            //address
+                            tmpStrs = fields[4].Split(new char[] { ',' });
+                            tmpStr = tmpStrs[0];
+                            int lastIndex = tmpStr.LastIndexOf(' ');
+                            if (lastIndex != -1)
+                            {
+                                tmpStr = tmpStr.Remove(lastIndex).Trim();
+                            }
+                            currentAddress = tmpStr;
+                            //add data to table
+                            addDataToWardList(currentLastName, currentHoh1, currentHoh2, currentAddress);
+                        }
+                    }
+                    else
+                    {
+                    //did not recognize file format
                         MessageBox.Show("\"Ward list\" file format not recognized.", "Unrecognized Format", MessageBoxButtons.OK);
                     }
                     
