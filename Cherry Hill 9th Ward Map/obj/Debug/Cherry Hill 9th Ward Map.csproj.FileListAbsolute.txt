@@ -35,10 +35,14 @@ C:\Users\jonat\Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Ch
 C:\Users\jonat\Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.csproj.GenerateResource.Cache
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.exe
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.pdb
-C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.csprojResolveAssemblyReference.cache
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry_Hill_9th_Ward_Map.Add_Family.resources
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry_Hill_9th_Ward_Map.Form1.resources
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry_Hill_9th_Ward_Map.Properties.Resources.resources
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.csproj.GenerateResource.Cache
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.exe
 C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.pdb
+C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.TrustInfo.xml
+C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.exe.manifest
+C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.application
+C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.exe.manifest
+C:\Users\jonat\Documents\GitHub\CherryHill9thWardMap\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.application
