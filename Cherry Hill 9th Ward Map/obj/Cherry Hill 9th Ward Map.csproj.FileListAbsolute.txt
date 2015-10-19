@@ -1,0 +1,13 @@
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.exe
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.pdb
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.exe.manifest
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.application
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.exe
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\bin\Debug\Cherry Hill 9th Ward Map.pdb
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry_Hill_9th_Ward_Map.Add_Family.resources
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry_Hill_9th_Ward_Map.Form1.resources
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry_Hill_9th_Ward_Map.Properties.Resources.resources
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.csproj.GenerateResource.Cache
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.exe.manifest
+C:\Documents and Settings\Owner\My Documents\Visual Studio 2005\Projects\Cherry Hill 9th Ward Map\Cherry Hill 9th Ward Map\obj\Debug\Cherry Hill 9th Ward Map.application
